@@ -7,5 +7,7 @@ Take any pptx file and convert it into a mp4 file with, each slide is a static n
 This assumes you have Node setup along with brew available to install dependencies of script.
 
 brew install ffmpeg libreoffice ghostscript imagemagick
+
 npm install unzipper fs-extra child_process
+
 node convertpptx.js {pptxfile}
